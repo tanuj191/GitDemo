@@ -17,6 +17,7 @@ public class LoginApplication {
 		FacebookLoginPage rd = new FacebookLoginPage(driver);
 		rd.Emailid().sendKeys("tanujj");
 		rd.Password().sendKeys("12a");
+		rd.submit().click();
 		
 	}
 

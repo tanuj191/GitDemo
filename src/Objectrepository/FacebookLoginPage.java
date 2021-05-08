@@ -24,5 +24,10 @@ public class FacebookLoginPage {
 	{
 		return driver.findElement(password);
 	}
+	
+	public WebElement submit()
+	{
+		return driver.findElement(submit);
+	}
 
 }
